@@ -9,3 +9,5 @@ services:
         value: 3.11.0
       - key: ADMIN_PASSWORD
         value: admin2026
+      - key: GOOGLE_SHEET_CSV_URL
+        value: https://docs.google.com/spreadsheets/d/1-cuHd8RQODfIYVO0a5vDMaAwXtpVXJwGLn-BhJWGU1M/export?format=csv&gid=0

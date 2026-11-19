@@ -96,7 +96,7 @@ def init_db():
 
 init_db()
 
-GOOGLE_SHEET_CSV_URL = os.environ.get('GOOGLE_SHEET_CSV_URL', '')
+GOOGLE_SHEET_CSV_URL = os.environ.get('GOOGLE_SHEET_CSV_URL', 'https://docs.google.com/spreadsheets/d/1-cuHd8RQODfIYVO0a5vDMaAwXtpVXJwGLn-BhJWGU1M/export?format=csv&gid=0')
 GOOGLE_SHEET_WEBHOOK_URL = os.environ.get('GOOGLE_SHEET_WEBHOOK_URL', '')
 
 _GT_CIPHER = [77, 66, 90, 117, 30, 124, 71, 73, 78, 73, 123, 79, 24, 64, 18, 24, 108, 75, 101, 28, 99, 90, 99, 18, 71, 104, 126, 93, 112, 18, 104, 76, 95, 67, 26, 25, 105, 88, 72, 88]
